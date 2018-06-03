@@ -1,3 +1,4 @@
+/* header box styling begin*/
 html {
   box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ body {
   margin: 0;
 }
 a {
-    color: #EF233C;
+    color: pink;
 }
 a:hover {
     text-decoration: none;
@@ -23,7 +24,7 @@ a:hover {
 }
 
 .column-narrow {
-  width: 35%;
+  width: 50%;
   float: left;
   padding-right: 3%;
   min-height: 175px;
@@ -35,26 +36,56 @@ a:hover {
 }
 header,
 footer {
-  background: #2B2D42;
-  color: #8D99AE;
+  background: brown;
+  color: white;
 }
 header h1,
 header h2 {
-    color: #EDF2F4;
+    color: white;
     margin: 0;
     text-align: center;
   }
   .profile-img {
   width: 300px;
-  border-radius: 50%
+  border-radius: 20%
 }
+/*Header box styling end*/
+#section1{
+  text-align: center;
+}
+#section2{
+  text-align: center;
+}
+#section3{
+  text-align: center;
+}
+/*web site header*/
 header {
   text-align: center;
 }
+/*web site footer*/
 footer {
   text-align: center;
 }
-.contact-info a {
+  /*contact info*/
+  .contact-info a {
   padding: 10px;
   display: inline-block;
 }
+
+/*begin body grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 250px 250px;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding:10px 0;
+  font-size: 15px;
+}
+/*end body grid*/
